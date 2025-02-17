@@ -133,7 +133,7 @@ resource openAiAccount 'Microsoft.CognitiveServices/accounts@2023-10-01-preview'
   resource gpt35 'deployments' = {
     name: 'gpt35'
     sku: {
-      name: 'S0'
+      name: 'Standard'
       capacity: 25
     }
     properties: {
